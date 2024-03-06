@@ -222,4 +222,11 @@ body {
     }
 }
 
-@media(max-width: 480px) {}
+@media(max-width: 480px) {
+    .text{
+        padding-left:0px;
+    }
+
+    .old-ram{
+        margin-left:10px;
+    }}
