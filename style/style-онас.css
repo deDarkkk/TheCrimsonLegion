@@ -136,3 +136,90 @@ body {
     border: 5px solid rgba(255, 255, 255, 0.781);
     border-radius: 29px;
 }
+
+@media(max-width: 1500px) {
+    .back {
+        height: 100vh;
+    }
+
+    .container {
+        justify-content: left;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
+    .VK {
+        padding-left: 300px;
+    }
+
+    .logo-main {
+        font-size: 100px;
+        padding-top: 400px;
+    }
+
+    .text {
+        padding-left: 20px;
+    }
+
+    .title1 {
+        text-align: left;
+
+    }
+
+    .title2 {
+        max-width: 700px;
+        font-size: 18px;
+        padding-left: 5px;
+    }
+}
+
+@media(max-width: 1100px) {
+    .VK {
+        padding-left: 0px;
+    }
+
+    .logo-main {
+        font-size: 100px;
+        padding-top: 400px;
+    }
+}
+
+@media(max-width: 992px) {
+    .VK {
+        padding-left: 200px;
+    }
+
+    .container {
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+
+    .logo {
+        padding-left: 0px;
+        margin-right: 5px;
+    }
+
+
+
+    .href {
+        margin-right: 20px;
+        font-size: 25px;
+    }
+
+    .logo-main {
+        font-size: 70px;
+        padding-top: 430px;
+    }
+}
+
+@media(max-width: 768px) {
+    .back {
+        height: 200vh;
+    }
+
+    .title2 {
+        width: 1000px;
+    }
+}
+
+@media(max-width: 480px) {}
