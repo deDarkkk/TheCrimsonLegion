@@ -175,6 +175,26 @@ body {
 
 }
 
-@media(max-width: 480px) {}
+@media(max-width: 480px) {.logo-main {
+        font-size: 50px;
+        padding-top: 380px;
+    }
+
+    .container {
+        margin-left: 0px;
+        background-color: rgba(0, 0, 0, 0.781);
+        height: 60px;
+    }
+
+    .button{
+      
+    }
+    .VK {
+      visibility:hidden;
+      width: 0px;
+    }
+
+    .logo-nik{font-size: 12px;}
+}
 
 @media(min-width: 320px) {}
