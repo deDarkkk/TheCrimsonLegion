@@ -20,7 +20,11 @@ body {
     background: rgba(0, 0, 0, 0.781);
 }
 
-
+.zagolov {
+    font-size: 140px;
+    font-family: Russo One, sans-serif;
+    padding-top: 5%;
+}
 
 .container {
     display: flex;
@@ -66,7 +70,7 @@ body {
 }
 
 .VK {
-    padding-left:600px;
+    padding-left: 600px;
     padding-top: 10px;
 }
 
@@ -74,12 +78,11 @@ body {
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
+    width: 200vh;
 }
 
 .button {
     padding: 15px;
-
-
 }
 
 .video1 {
@@ -87,14 +90,14 @@ body {
     justify-content: center;
     width: 100%;
     align-items: center;
-  
+
 }
 
 .title1 {
     font-size: 35px;
     font-family: fantasy;
     color: #f08401;
-    padding-top:10%;
+    padding-top: 10%;
     text-align: center;
 
 }
@@ -109,7 +112,7 @@ body {
 
 .full-text1 {
     padding-top: 10%;
-    
+
 }
 
 .movie1 {
@@ -127,14 +130,14 @@ body {
 
 .full-text2 {
     padding-top: 10%;
-    
+
 }
 
 .title2 {
     font-size: 35px;
     font-family: fantasy;
     color: #f08401;
-    padding-top:10%;
+    padding-top: 10%;
     text-align: center;
 
 }
@@ -160,14 +163,14 @@ body {
 
 .full-text3 {
     padding-top: 10%;
-    
+
 }
 
 .title3 {
     font-size: 35px;
     font-family: fantasy;
     color: #f08401;
-    padding-top:10%;
+    padding-top: 10%;
     text-align: center;
 
 }
@@ -180,6 +183,112 @@ body {
 
 }
 
-.movie3 {
+.movie3if {
     padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
+
+.movie2if {
+    padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
+
+.movie1if {
+    padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
+
+@media(max-width: 480px) {
+
+    .VK {
+        padding-left: 0px;
+    }
+
+    .main {
+        width: 70vh;
+
+    }
+
+    .zagolov {
+        font-size: 50px;
+        padding-top: 330px;
+        padding-right: 50px;
+    }
+
+    .logo-main {
+        font-size: 50px;
+        padding-top: 380px;
+    }
+
+    .container {
+        margin-left: 0px;
+        background-color: rgba(0, 0, 0, 0.781);
+        height: 60px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .button {
+        padding: 5px
+    }
+
+    .VK {
+        visibility: hidden;
+        width: 0px;
+    }
+
+    .logo-nik {
+        font-size: 12px;
+    }
+
+    .href {
+        font-size: 14px;
+        margin-right: 0px;
+        padding-top: 3px;
+    }
+
+    .logo {
+        margin-left: -35px;
+    }
+
+    .text3 {
+        font-size: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .movie3if {
+        width: 200px;
+        height: 160px;
+        padding-left: 40px;
+    }
+
+    .text2 {
+        font-size: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+    .movie2{padding-left: 40px;}
+    .movie2if {
+        width: 200px;
+        height: 160px;
+        padding-left: 40px;
+    }
+
+    .text1 {
+        font-size: 15px;
+        padding-left: 10px;
+        text-align: center;
+    }
+
+    .movie1{padding-left: 40px;}
+    .movie1if {
+        width: 200px;
+        height: 160px;
+        padding-left: 40px;
+    }
+
 }
