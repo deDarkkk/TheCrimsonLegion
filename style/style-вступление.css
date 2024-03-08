@@ -4,7 +4,9 @@ body {
     background-size: cover;
     background-position: 70%;
     font-family: "Oswald", sans-serif;
+
 }
+
 
 .header {
     position: fixed;
@@ -65,7 +67,7 @@ body {
 
 /*  Желание   */
 .main {
-    height: 100vh;
+    height: 80vh;
     justify-content: center;
     align-items: center;
 }
@@ -111,10 +113,13 @@ body {
 .image {
     margin-top: 230px;
     border: 5px solid white;
-   
 
 }
 
+.image1 {
+    width: 300px;
+    height: 400px;
+}
 
 /*  Требования  */
 
@@ -125,6 +130,17 @@ body {
     text-shadow: 2px -2px 2px rgb(231, 229, 226);
     font-size: 37px;
     margin-right: 300px;
+    display: flex;
+}
+
+.but1 {
+
+    margin-top: -170px;
+    font-family: "Oswald", sans-serif;
+    color: rgb(243, 161, 8);
+    text-shadow: 2px -2px 2px rgb(231, 229, 226);
+    font-size: 37px;
+    display: flex;
 }
 
 .silka {
@@ -169,7 +185,7 @@ body {
     border: 3px solid rgb(0, 99, 212);
     font-family: "Oswald", sans-serif;
     box-shadow: 4px 9px #000000c5;
-    
+
 }
 
 .vstup-vk:hover {
@@ -219,46 +235,122 @@ body {
     border-bottom-left-radius: 29px;
     border-bottom-right-radius: 29px;
 }
-@media(max-width: 480px) {
+
+@media(max-width: 1500px) {
     .VK {
-        padding-left: 0px; 
-        visibility: hidden;
-        width: 0px;
-    }
-
-    .main {
-        width: 70vh;
-
-    }
-    .logo-main {
-        font-size: 50px;
-        padding-top: 380px;
+        padding-left: 0px;
     }
 
     .container {
+        background-color: black;
         margin-left: 0px;
-        background-color: rgba(0, 0, 0, 0.781);
-        height: 60px;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    .button {
-        padding: 5px
-    }
-
-    .logo-nik {
-        font-size: 12px;
-    }
-
-    .href {
-        font-size: 14px;
         margin-right: 0px;
-        padding-top: 3px;
     }
 
     .logo {
-        margin-left: -35px;
+        padding-left: 10px;
     }
-  
+
+    .container1 {
+        align-items: flex-start;
+    }
+
+    .container2 {}
+
+    .text {
+        margin-right: 50px;
+        padding-top: 150px;
+    }
+
+    .image {
+        margin-top: 150px;
+    }
+
+    .text2 {
+        padding-right: 50px;
+        width: 600px;
+    }
+
+    .but {
+        margin-right: 30px;
+        width: 494px;
+    }
+
+    .but1 {
+        width: 494px;
+
+    }
+
+}
+
+@media(max-width: 1100px) {
+
+    .logo-nik {
+        padding-right: 5px;
+    }
+
+    .but {
+        margin-right: 0px;
+    }
+
+    .but1 {
+        display: contents;
+    }
+}
+
+@media(max-width: 992px) {
+
+    .href {
+        margin-right: 5px;
+        padding: 0px;
+    }
+
+    .but {
+        display: contents;
+    }
+
+}
+
+@media(max-width: 768px) {
+
+    .href {
+        margin-right: 0px;
+    }
+
+    .image1 {
+        width: 200px;
+        height: 300px;
+    }
+
+    .text {
+        padding-left: 108px;
+        font-size: 16px;
+    }
+
+    .container1 {
+        flex-direction: row;
+        justify-content: flex-end;
+        width: 85vh;
+    }
+
+    .container2 {
+        width: 83vh;
+        padding-top: 0px;
+    }
+
+
+    .title {
+        padding: 8px;
+        font-size: 25px;
+    }
+
+    .but-menu {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .title4 {
+        padding: 2px;
+    }
 }
