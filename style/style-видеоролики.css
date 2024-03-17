@@ -183,32 +183,11 @@ body {
 
 }
 
-.movie3if {
-    padding-left: 200px;
-    width: 750px;
-    height: 600px;
-}
-
-.movie4if {
-    padding-left: 200px;
-    width: 750px;
-    height: 600px;
-}
-
-.movie4if {
-    padding-left: 200px;
-    width: 750px;
-    height: 600px;
-}
 .video4 {
     display: flex;
     justify-content: center;
     width: 100%;
     align-items: center;
-}
-
-.full-text4 {
-    padding-top: 10%;
 
 }
 
@@ -229,11 +208,36 @@ body {
 
 }
 
+.full-text4 {
+    padding-top: 10%;
+
+}
+
 .movie4 {
     padding-left: 200px;
 }
+.movie4if {
+    padding-left: 500px;
+    width: 750px;
+    height: 600px;
+}
+.movie3if {
+    padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
 
+.movie2if {
+    padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
 
+.movie1if {
+    padding-left: 200px;
+    width: 750px;
+    height: 600px;
+}
 
 @media(max-width: 480px) {
 
